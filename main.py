@@ -14,3 +14,5 @@ for timer in all_timers:
     timer.thread.join()
     if timer.timeout:
         print(f"timeout-{timer.timeout_value} ok")
+    
+print("deneme degisikligi")
